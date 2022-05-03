@@ -1,0 +1,77 @@
+*{     /*seletor universal, pega todos os elementos da página*/
+  margin:0;
+  box-sizing:border-box; /*conta o tamanho a partir das bordas*/
+}
+
+:root {
+
+  --primary-color: hsl(170, 100%, 26%);
+  --headline: hsl(210, 11%, 15%);
+  --paragraph: hsl(210, 9%, 31%);
+
+  font-size: 62.5%; /*100% é igual 16px (padrão dos navegadores)*/
+}                   /*62% é igual 10 px*/
+
+
+body {
+  font-family: 'DM Sans';
+  font-size: 1.6rem; /*Se eu usar 1.6 equivale a 16px*/
+  text-align: center;
+}
+
+header{
+  width: 37.5rem;
+  margin-top: 4.1rem;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+h4 {
+  font-size: 1.4rem;
+  color: var(--primary-color);
+  margin-bottom: 1.6rem;
+}
+
+h1 {
+  font-size: 3.4rem;
+  color: var(--headline);
+  line-height: 130%;
+  margin-bottom: 2.4rem;
+}
+
+p {
+  font-size: 1.8rem;
+  line-height: 150%; /*Espaçamento entre as linhas*/
+  font-weight: 400;
+  color: var(--paragraph);
+  margin-bottom: 3.2rem;
+}
+
+button {
+  background: var(--primary-color);
+  border:none; /*sem o traço da borda*/
+  border-radius: 4rem; /*quanto maior mais arredondada*/
+
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 6.0rem;
+
+  height:6.2rem;
+  width: 26.3rem;
+
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 700;
+
+  display:flex; /*caixa filha, dentro do botão, contém o texto*/
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem
+
+}
+
+
+
